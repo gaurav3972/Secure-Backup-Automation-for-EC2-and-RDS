@@ -21,7 +21,7 @@ The objective of this project is to demonstrate the configuration and management
 ### 1.1 Launch an EC2 Instance (Web Server)
 
 #### Steps:
-
+![](https://github.com/gaurav3972/Secure-Backup-Automation-for-EC2-and-RDS/blob/main/images/Screenshot%202025-07-11%20164835.png)
 1. Log in to the AWS Management Console.
 2. Navigate to **EC2 Dashboard** → Click **Launch Instance**.
 3. Configure the instance:
@@ -63,7 +63,7 @@ Take a snapshot of the instance after configuration for quick rollback or reuse.
 ---
 
 ### 1.2 Launch an RDS Instance (Database Server)
-
+![](https://github.com/gaurav3972/Secure-Backup-Automation-for-EC2-and-RDS/blob/main/images/Screenshot%202025-07-11%20163110.png)
 #### Steps:
 
 1. Go to **RDS Dashboard** → Click **Create Database**.
@@ -78,7 +78,7 @@ Take a snapshot of the instance after configuration for quick rollback or reuse.
    * **Storage**: Use default (20 GB SSD)
    * Enable **public access** (for test only)
    * Add **inbound rules** in security group for port **3306** (MySQL) or **5432** (PostgreSQL)
-
+![](https://github.com/gaurav3972/Secure-Backup-Automation-for-EC2-and-RDS/blob/main/images/Screenshot%202025-07-11%20164631.png)
 #### Create a Test Database and Table:
 
 Using a database client like DBeaver or MySQL Workbench:
@@ -108,7 +108,7 @@ INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com'), ('Bob', '
 4. Optionally enable notifications using Amazon SNS.
 
 ### 2.2 Create Backup Plan
-
+![](https://github.com/gaurav3972/Secure-Backup-Automation-for-EC2-and-RDS/blob/main/images/Screenshot%202025-07-11%20165206.png)
 1. Go to **Backup Plans** → **Create Backup Plan** → Choose **Build a new plan**.
 2. Configuration:
 
@@ -151,7 +151,7 @@ INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com'), ('Bob', '
 4. Monitor progress under **Backup Jobs**.
 
 ### 3.2 Monitor Backup Jobs
-
+![](https://github.com/gaurav3972/Secure-Backup-Automation-for-EC2-and-RDS/blob/main/images/Screenshot%202025-07-11%20163045.png)
 1. Go to **Backup Jobs** section.
 2. Confirm:
 
