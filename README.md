@@ -3,6 +3,7 @@
 
 This project is about learning how to back up important AWS resources using a service called **AWS Backup**. Backups help keep your data safe in case something goes wrong, like a server crash or accidental deletion. In this project, we will create and set up two resources: an **EC2 instance**, which runs a web server, and an **RDS database**, which stores sample data. Then, we will use AWS Backup to create a **backup plan** that automatically saves copies of these resources. We will test the backup by running it manually and checking that the data is saved properly. This project helps understand how to protect data in the cloud using simple and reliable AWS tools.
 
+![](https://github.com/gaurav3972/Secure-Backup-Automation-for-EC2-and-RDS/blob/main/images/0.0..5.png)
 ## **Objective:**
 
 The objective of this project is to demonstrate the configuration and management of **automated backup and recovery** for AWS resources using **AWS Backup**, a fully managed backup service. The focus is on protecting compute and database services—specifically, **Amazon EC2** and **Amazon RDS**. This project aims to achieve the following:
