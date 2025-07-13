@@ -1,4 +1,4 @@
-# Secure Backup Automation for EC2 and RDS
+# 🔐Secure Backup Automation for EC2 and RDS
 ### 📝 **Introduction :**
 
 This project is about learning how to back up important AWS resources using a service called **AWS Backup**. Backups help keep your data safe in case something goes wrong, like a server crash or accidental deletion. In this project, we will create and set up two resources: an **EC2 instance**, which runs a web server, and an **RDS database**, which stores sample data. Then, we will use AWS Backup to create a **backup plan** that automatically saves copies of these resources. We will test the backup by running it manually and checking that the data is saved properly. This project helps understand how to protect data in the cloud using simple and reliable AWS tools.
@@ -180,5 +180,5 @@ INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com'), ('Bob', '
 ---
 ### 📄 **Summary :**
 
-This project focused on implementing a centralized and automated backup solution using AWS Backup for critical cloud infrastructure components—Amazon EC2 and Amazon RDS. The process began by launching an EC2 instance with a web server and test content, and an RDS instance running a MySQL or PostgreSQL database with sample data. These resources were then protected through a backup strategy involving the creation of a custom backup vault and a backup plan configured with daily frequency and a defined retention period. Resources were assigned to the backup plan directly or via tagging for better scalability and automation. On-demand backups were manually triggered to test the configuration, and successful backup jobs and recovery points were verified through the AWS Backup console. This project demonstrates how AWS Backup simplifies and centralizes data protection across multiple AWS services while offering flexibility in scheduling, lifecycle management, and compliance support. It reflects best practices in cloud infrastructure reliability, disaster recovery preparedness, and operational resilience.
+This project focused on implementing a centralized and automated backup solution using AWS Backup for critical cloud infrastructure components—Amazon EC2 and Amazon RDS. The process began by launching an EC2 instance with a web server and test content, and an RDS instance running a MySQL or PostgreSQL database with sample data. These resources were then protected through a backup strategy involving the creation of a custom backup vault and a backup plan configured with daily frequency and a defined retention period.
 
